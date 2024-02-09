@@ -1,10 +1,7 @@
-// APRENDIENDO JAVASCRIPT
+const texto = 'La educación es muy importante en Argentina'
+const texto2 = 'Argentina'
+const texto3 = 'el mundo'
 
-const temperatura = 76
-function transformarACelcius(fahrenheit){
-   return (5/9) * (fahrenheit - 32)
-}
+const resultado = texto.concat(texto3)
 
-const respuesta = transformarACelcius(temperatura);
-
-console.log(respuesta); 
+console.log(resultado)
