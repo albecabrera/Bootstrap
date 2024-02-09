@@ -7,4 +7,4 @@ function transformarACelcius(fahrenheit){
 
 const respuesta = transformarACelcius(temperatura);
 
-console.log(`La respuesta en grados celcius es de`, respuesta); 
+console.log(respuesta); 
