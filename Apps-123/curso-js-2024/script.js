@@ -1,7 +1,8 @@
-const texto = 'La educación es muy importante en Argentina'
-const texto2 = 'Argentina'
-const texto3 = 'el mundo'
+// cortar un elemento de un array
 
-const resultado = texto.concat(texto3)
+const array = ['Manzana', 'Naranja', 'Limón', 'Pera']
 
-console.log(resultado)
+// índice, cuantos quiero cortar y que agrego
+array.splice(1,1, 'Cereza')
+
+console.log(array)
