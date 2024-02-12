@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Portfolio</title>
 </head>
 
@@ -16,8 +17,8 @@
     <div class="switches">
       <!-- Este div contiene los iconos de los modos claros y oscuros -->
       <div id="toggle-theme" class="toggle-theme">
-        <img id="toogle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toogle-theme__icon">
-        <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
       </div>
     </div>
     <div id="toggle-colors" class="colors">
@@ -32,7 +33,113 @@
     </div>
 
   </header>
-  <h1 class="title">MI PORTFOLIO</h1>
+  <main class="main">
+    <section class="column column--left">
+      <!-- Este es el PROFILE CARD -->
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/profile.jpeg" alt="profile image" class="card__image" />
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">AlbertoCabrera</h2>
+          <p class="card__subtitle">Frontend Developer</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:dorian@gmail.com">albe.cabrera@yahoo.de</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:+4917660827598">+4917660827598</a>
+          </div>
+          <p class="card__text">Tengo solo 1 año de experiencia en desarrollo web. Apasionado de las nuevas tecnologías
+            y
+            en especial del ecosistema de CSS y Javascript. <br /> Mi propósito es trasladar mi pasión por enseñar
+            tecnologías web a todos aquellos que quieran iniciarse en este campo de una forma actualizada, con buenas
+            prácticas y desde cero. </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Frontend</h2>
+        <small>Años de experiencia</small>
+        <div class="skills"></div>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">5</span>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Design</h2>
+        <small>Años de experiencia</small>
+        <div class="skills"></div>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">5</span>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Photoshop</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Ilustrator</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Figma</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Multimedia</h2>
+        <small>Años de experiencia</small>
+        <div class="skills"></div>
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">5</span>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Davinci Resolve</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">LumaFusion</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">TouchPortal</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
   <script src="js/scripts.js"></script>
 </body>
 
