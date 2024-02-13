@@ -119,6 +119,8 @@ body.dark {
 .column {
     display: grid;
     gap: 0.5em;
+   
+  
 
 }
 
@@ -127,6 +129,7 @@ body.dark {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, min-content);
         align-items: start;
+
     }
 }
 
@@ -134,32 +137,18 @@ body.dark {
     padding: 1em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
-    width: 100%;
-    /* Ajusta el ancho según tus necesidades */
-    box-sizing: border-box;
-    /* Asegura que el ancho incluya el relleno y el borde */
-
-    /* Agrega margen y elimina espacio entre las tarjetas */
-    margin-right: 10px;
-    /* Puedes ajustar este valor según tu diseño */
-    margin-bottom: 10px;
-    /* Puedes ajustar este valor según tu diseño */
-    float: left;
-    /* Hace que las tarjetas floten a la izquierda */
+    
 }
-
-/* Limpia el flotado después de las tarjetas para evitar problemas de diseño */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 
 .card__image-container {
     min-width: 320px;
     border-radius: var(--border-radius);
     overflow: hidden;
+   
+
+}
+
+
 }
 
 .skills {
