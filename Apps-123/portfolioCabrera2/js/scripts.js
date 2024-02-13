@@ -31,7 +31,7 @@ flagsElement.addEventListener('click', (e) => {
 
 toggleTheme.addEventListener('click', () => {
     document.body.classList.toggle('dark');
-   if(toogleIcon.src.includes('moon.svg')) {
+   if (toogleIcon.src.includes('moon.svg')) {
        toggleIcon.src = 'assets/icons/sun.svg';
        toggleText.textContent = 'Light Mode';
    } else {
