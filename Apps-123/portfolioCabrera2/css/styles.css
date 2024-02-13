@@ -126,14 +126,15 @@ body.dark {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, min-content);
         align-items: start;
-
     }
 }
+
+
 
 .card {
     padding: 1em;
     background-color: var(--bg-card-color);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius);;
     
 }
 
@@ -167,12 +168,14 @@ body.dark {
 }
 
 @media screen and (min-width: 760px) {
+
     .card--project {
         display: grid;
         grid-template-columns: min-content 1fr;
         grid-column: 1 / -1;
     }
 }
+
 
 
 .skills {
@@ -367,4 +370,5 @@ body.dark {
     to {
         transform: translateX(var(--skills-bar-length));
     }
-}
+}}
+
