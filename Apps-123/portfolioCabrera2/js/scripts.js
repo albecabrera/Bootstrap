@@ -10,21 +10,21 @@ const flagsElement = document.getElementById('flags');
 
 const textsToChange = document.querySelectorAll('[data-section]');
 
-const changeLanguage = async (language) => {
+const changeLanguage = async language=> {
     const requestJson = await fetch(`./languages/${language}.json`);
     const texts = await requestJson.json();
 
-    for(const textsToChange of textsToChange) {
-       const section = textsToChange.dataset.section;
-       const value = textsToChange.dataset.value;
+    
+for(const textsToChange of textsToChange) {
+    const section = textsToChange.dataset.section;
+    const value = textsToChange.dataset.value;
 
-       textsToChange.innerHTML = texts[section][value];
-    }
+    textsToChange.innerHTML = texts[section][value];
+}
 };
 
 
-
-flagsElement.addEventListener('click', (e) => {
+ flagsElement.addEventListener('click', (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
 });
 
