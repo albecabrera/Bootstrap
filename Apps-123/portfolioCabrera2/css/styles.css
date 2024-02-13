@@ -294,10 +294,10 @@ body.dark {
 }
 
 @media screen and (min-width: 760px) {
-.project{
-    margin-left: 2em;
-}
-}
+    .project{
+        margin-left: 2em;
+    }
+    }
 
 .project__tags {
     display: flex;
@@ -306,14 +306,6 @@ body.dark {
     font-size: 0.6rem;
     width: 275px;
 }
-
-@media screen and (min-width: 760px) {
-    .project{
-    width: 325px;
-    font-size: 0.8rem;
-
-    }
-    }
 
     .project__tag{
         padding: .4em .8em;
