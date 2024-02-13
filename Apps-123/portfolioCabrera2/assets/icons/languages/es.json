@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Desarrollador Frontend",
+        "description": "Tengo solo 1 año de experiencia en desarrollo web. Apasionado de las nuevas tecnologías y en especial del ecosistema de CSS y Javascript. Mi propósito es trasladar mi pasión por enseñar tecnologías web a todos aquellos que quieran iniciarse en este campo de una forma actualizada, con buenas prácticas y desde cero."
+    }, 
+    "experience": {
+        "first-job-title": "Desarrollador Frontend",
+        "first-job-dates": "Enero 2023 - Enero 2024",
+        "first-job-description": "Desarrollo de sitios web en React, Angular y Vue.",
+        "second-job-title": "Desarrollador Backend",
+        "second-job-dates": "Enero 2022 - Enero 2023",
+        "second-job-description": "Desarrollo de APIs REST con NodeJS y Express.",
+        "last-job-title": "Desarrollador Frontend",
+        "last-job-dates": "Enero 2021 - Enero 2022",
+        "last-job-description": "Desarrollo de sitios web en React, Angular y Vue."
+    }
+}

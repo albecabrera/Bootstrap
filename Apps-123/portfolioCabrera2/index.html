@@ -8,17 +8,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <title>Portfolio</title>
+
+
 </head>
 
 <body class="dark">
   <header class="header">
-
-    <!-- switches => clase de colores para poder cambiarlos en la barra de navegación -->
     <div class="switches">
-      <!-- Este div contiene los iconos de los modos claros y oscuros -->
       <div id="toggle-theme" class="toggle-theme">
         <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
         <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="assets/icons/es.jpg" alt="" />
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="assets/icons/gb.jpg" alt="" />
       </div>
     </div>
     <div id="toggle-colors" class="colors">
@@ -31,9 +38,9 @@
       <div data-color="hsl(46, 84%, 56%)" class="colors_item colors_item--orange"></div>
 
     </div>
-
   </header>
   <main class="main">
+
     <section class="column column--left">
       <!-- Este es el PROFILE CARD -->
       <article class="card card--profile">
@@ -42,7 +49,7 @@
         </div>
         <div class="card__header">
           <h2 class="card__title no-margin">AlbertoCabrera</h2>
-          <p class="card__subtitle">Frontend Developer</p>
+          <p class="card__subtitle" data-section="profile" data-value="rol">Frontend Developer</p>
         </div>
         <div class="card__body">
           <div class="card__link">
@@ -53,7 +60,8 @@
             <i class="fas fa-phone-alt icon"></i>
             <a href="tel:+4917660827598">+4917660827598</a>
           </div>
-          <p class="card__text">Tengo solo 1 año de experiencia en desarrollo web. Apasionado de las nuevas tecnologías
+          <p class="card__text" data-section="profile" data-value="description">Tengo solo 1 año de experiencia en
+            desarrollo web. Apasionado de las nuevas tecnologías
             y
             en especial del ecosistema de CSS y Javascript. <br /> Mi propósito es trasladar mi pasión por enseñar
             tecnologías web a todos aquellos que quieran iniciarse en este campo de una forma actualizada, con buenas
@@ -105,7 +113,7 @@
       </div>
     </section>
 
-    <se class="column column--right">
+    <section class="column column--right">
       <article class="card">
         <h2 class="card__title">Frontend</h2>
         <small>Años de experiencia</small>
@@ -202,31 +210,6 @@
             quo odio enim consequatur.</p>
           <div class="buttons">
             <a href="#" class="button button--primary">Demo</a>
-            <a href="#" class="button button--ghost">Code</a>https://flagicons.lipis.dev
-          </div>
-      </article>
-
-      <article class="card card--project">
-        <div class="card__image-container">
-          <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
-        </div>
-        <div class="project">
-          <div class="project__tags">
-            <span class="project__tag">HTML</span>
-            <span class="project__tag">CSS</span>
-            <span class="project__tag">JavaScript</span>
-            <span class="project__tag">Responsive</span>
-
-          </div>
-          <h2 class="card__title">Landing Page</h2>
-          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique quis iusto
-            perferendis fuga libero. Rem est, quidem tempore repellat minus voluptatem molestias, dolorum nobis mollitia
-            quo odio enim consequatur.</p>
-          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique quis iusto
-            perferendis fuga libero. Rem est, quidem tempore repellat minus voluptatem molestias, dolorum nobis mollitia
-            quo odio enim consequatur.</p>
-          <div class="buttons">
-            <a href="#" class="button button--primary">Demo</a>
             <a href="#" class="button button--ghost">Code</a>
           </div>
       </article>
@@ -256,7 +239,32 @@
           </div>
       </article>
 
-      </section>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">HTML</span>
+            <span class="project__tag">CSS</span>
+            <span class="project__tag">JavaScript</span>
+            <span class="project__tag">Responsive</span>
+
+          </div>
+          <h2 class="card__title">Landing Page</h2>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique quis iusto
+            perferendis fuga libero. Rem est, quidem tempore repellat minus voluptatem molestias, dolorum nobis mollitia
+            quo odio enim consequatur.</p>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique quis iusto
+            perferendis fuga libero. Rem est, quidem tempore repellat minus voluptatem molestias, dolorum nobis mollitia
+            quo odio enim consequatur.</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="#" class="button button--ghost">Code</a>
+          </div>
+      </article>
+
+    </section>
   </main>
   <script src="js/scripts.js"></script>
 </body>

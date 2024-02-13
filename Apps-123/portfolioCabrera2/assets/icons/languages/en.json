@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "role": "Frontend Developer",
+        "description": "I have only 1 year of experience in web development. Passionate about new technologies and especially the CSS and Javascript ecosystem. My purpose is to transfer my passion for teaching web technologies to all those who want to get started in this field in an updated way, with good practices and from scratch."
+    }, 
+    "experience": {
+        "first-job-title": "Frontend Developer",
+        "first-job-dates": "January 2023 - January 2024",
+        "first-job-description": "Website development in React, Angular and Vue.",
+        "second-job-title": "Backend Developer",
+        "second-job-dates": "January 2022 - January 2023",
+        "second-job-description": "REST API development with NodeJS and Express.",
+        "last-job-title": "Frontend Developer",
+        "last-job-dates": "January 2021 - January 2022",
+        "last-job-description": "Website development in React, Angular and Vue."
+    }
+}
