@@ -1,7 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 50px;
+    padding: 250px;
+}
+#experiencia {
+    margin: 10px;
 }
 
 header {
@@ -25,9 +28,6 @@ header {
     color: black;
 }
 
-.section-1 {
-    text-align: center;
-}
 
 #disponible {
     font-style: italic;
@@ -43,7 +43,7 @@ header {
 
 button {
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     background-color: #333;
     color: white;
     border: none;
@@ -54,6 +54,7 @@ button:hover {
     background-color: #555;
 }
 
+.section-1,
 .section-2,
 .section-3 {
     margin-top: 30px;
@@ -67,6 +68,12 @@ h4 {
 .buttons {
     text-align: center;
    border-radius: 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
 }
 
 footer
