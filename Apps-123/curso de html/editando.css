@@ -1,0 +1,48 @@
+h1{
+    font-family: serif;
+    font-size: 64px;
+    text-align: center;
+    color:orange;
+    text-shadow: 2px 2px 5px black;
+    /* Texto de sombreado */
+
+}
+
+p{
+    font-family: serif;
+    font-size: 20px;
+    text-align: justify;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Con el margen derecho e izquierdo en auto se ajusta el texto muy bien en varias direcciones.  */
+
+p.capital::first-letter{
+    color:orange;
+    font-size: 80px;
+    float: left;
+    background-color: brown;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Asignarle el color a la primera letra de cada parrafo.  */
+
+a:hover{
+    color: orange;
+
+}
+.border{
+    border: 5px dotted gray;
+    margin: 10px 15px 10px 15px;
+}
