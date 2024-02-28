@@ -1,0 +1,19 @@
+.contenedor{
+    font-style: 32px;
+}
+
+.pixeles{
+    font-style: 16px; /* Es el valor por defecto */
+}
+
+.porcentaje{
+    font-style: 200%;
+}
+
+.em{
+    font-style: 1.5em;
+}
+
+.rem{
+    font-style: 0.8em;
+}
