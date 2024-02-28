@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+    font-family: serif;
+    font-style: 2rem;
+}
+/* Menu Principal */
+.menu{
+    background-color: black;
+    display: inline-flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+/* Con esta opción cuando se le pasa por encima a la barra de navegación cambia de color.  */
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menu a.active{
+    background-color: white;
+    color: black;
+}
+
+/* REdes Sociales */
+.social{
+    
+}
