@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: wheat;
+}
+
+div{
+    padding-left: 5px;
+}
+/* Position static deja fija el elemento en la pantalla */
+.static{
+    background-color: #757677;
+    position: static;
+
+}
+
+.relativ{
+    background-color: #5128d6;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.absolute{
+    background-color: #42b553;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+   
+}
+
+.sticky{
+    background-color: #ff00ff;
+    position: sticky;
+    top: 0;
+}
+
+.espacio{
+    background-color: darkcyan;
+    height: 1000px;
+}
+
+.fixed{
+    background-color: darkred;
+    position: fixed;
+
+}
