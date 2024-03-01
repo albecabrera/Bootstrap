@@ -19,6 +19,7 @@ body {
   width: 550px;
   height: 550px;
 }
+
 /* a partir de aqui es codigo nuevo */
 /* Estilos generales para el header */
 .header {
@@ -45,13 +46,15 @@ ul {
 
 /* Estilos para los elementos de la lista */
 li {
-  margin-right: 20px; /* Ajusta el espaciado entre elementos según tus necesidades */
+  margin-right: 20px;
+  /* Ajusta el espaciado entre elementos según tus necesidades */
 }
 
 /* Estilos para los enlaces */
 a {
   text-decoration: none;
-  color: #333; /* Ajusta el color del texto según tus necesidades */
+  color: #333;
+  /* Ajusta el color del texto según tus necesidades */
 }
 
 .navbar-container {
@@ -64,7 +67,8 @@ a {
 }
 
 li:nth-child(1) a {
-  color: orange; /* Cambia el color a naranja al primer elemento de la lista */
+  color: orange;
+  /* Cambia el color a naranja al primer elemento de la lista */
 }
 
 a:hover {
@@ -77,6 +81,7 @@ a:hover {
   margin-top: 90px;
   border-radius: 50px;
 }
+
 /* Media query para hacer la página responsiva */
 
 @media screen and (max-width: 768px) {
@@ -102,4 +107,17 @@ a:hover {
 
 .button {
   cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 200;
+  list-style-type: none;
+  /* Esta opción permite quitar los puntos de la lista */
 }
