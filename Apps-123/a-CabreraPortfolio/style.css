@@ -29,11 +29,22 @@ header {
 }
 
 
-#disponible {
+.logo, 
+.disponible{
     font-style: italic;
     color: #777;
-    padding-bottom: 20px
-
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 50%;
+    padding-bottom: 20px;
+    align-items: center;
+    display: inline-block;
+    
+    
 }
 
 .buttons {
@@ -70,11 +81,7 @@ h4 {
    border-radius: 50px;
 }
 
-.logo{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-}
+
 
 footer
 {
@@ -83,3 +90,4 @@ footer
     text-align: center;
     padding: 10px 0;
 }
+
