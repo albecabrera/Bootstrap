@@ -30,9 +30,15 @@ body {
   padding: 8px;
   background-color: #f0f0f0;
   position: fixed;
-  border-radius: 20%;
+  border-radius: 35%;
   z-index: 200;
-  /*Ajustaelcolordefondosegúntusnecesidades*/
+  border: 1px solid;
+  /*Ajustaelcolordefondosegúntusnecesidades*/:;
+  -webkit-border-radius: 350%;
+  -moz-border-radius: 350%;
+  -ms-border-radius: 350%;
+  -o-border-radius: 350%;
+  overflow: hidden;
 }
 
 /* Estilos para la lista de navegación */
