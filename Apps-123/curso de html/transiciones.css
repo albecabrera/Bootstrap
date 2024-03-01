@@ -1,0 +1,14 @@
+.contenedor{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    transition-property: background-color, width;
+    transition-duration: 1000ms, 2000ms;
+    transition-timing-function: cubic-bezier(.15,1.01,.83,-0.31);
+}
+
+.contenedor:hover{
+    background-color: green;
+    width: 100%;
+}
