@@ -1,50 +1,81 @@
-// function add(x, y) {
-//     return x + y
-// }
-// console.log(add(10, 20))
+// const title = document.createElement('h1')
+
+// title.innerText = 'Hola mundo desde JS'
+
+// const button = document.createElement('button')
+// button.innerText = 'click'
+
+// button.addEventListener('click', function () {
+//     title.innerText = 'Texto actualizado con JS'
+//     alert('se realizo un click')
+// })
+
+// document.body.append(title)
+// document.body.append(button)
+
+// -----------destructuring------------
+
+//  const user = {
+//     name: 'John',
+//     age: 30
+//  }
+
+//  function printInfo(user){
+//     return '<h1>Hola ' + user.name + '</h1>'
+//  }
+
+//  console.log(printInfo(user))
+
+//  document.body.innerHTML = printInfo(user)
+
+//  function start() {
+//     return 'Starting'
+
+//  }
+
+//  arrow function
+
+// const showText = () => 'Hola Albe'
+// const showNumber = () => 45;
+// const showBoolean = () => true;
+// const showArray = () => [1, 2, 3]
+
+// console.log(showNumber())
+// console.log(showBoolean())
+// console.log(showArray())
+// console.log(showText())
 
 
-// ---------defalut visitParameters----------
+// const names = ['John', 'Jane', 'Mary']
 
-// function add(x, y) {
-//     return x + y
-// }
+// const newNames = names.map(name => 'Hola ' + name)
+// console.log(newNames)
 
-// console.log(add(10, 50))
+// const names = ['John', 'Jane', 'Mary']
 
-// function add(x=23.3, y=0) {
-//     return x + y
-// }
+// const nameFound = names.find(function (name) {
+//     return name === 'John'
+// })
+// console.log(nameFound)
 
-// console.log(add())
 
-// const user = {
-//     name: 'sajal',
-//     lastname: 'singh',
-//     age: 30, 
-//     address: {
-//         contry: 'colombia',
-//         city: 'bogota',
-//         street: 'calle 1'
-//     }, 
-//    friends: ['brandon', 'elena'],
-//    active: true,
-//    sendMail: function () {
-//     return 'sending email'  
-//    }
-// }
+// const names = ['John', 'Jane', 'Mary']
 
-// console.log(user.address.city)
-// console.log(user.friends)
+// const newNames = names.filter(function (name) {
+//     if (name !== 'John') {
+//         return true
+//     }
+// })
+// console.log(newNames)
 
-const name = 'laptop'
-const price = 3000
+// ----------new names--------
 
-const newProduct = {
-    name, 
-    price
+const names = ['John', 'Jane', 'Mary'  ]
+const newNames = ['Marcos', 'Mario', 'Paco']
 
-}
+ console.log(names.concat(newNames))  
 
-console.log(newProduct)
+
+
+
 
