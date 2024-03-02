@@ -32,9 +32,10 @@ body{
 }
 
 .box:hover{
-    transform:rotatex(180deg);
-    -webkit-transform:rotatex(180deg);
-    -moz-transform:rotatex(180deg);
-    -ms-transform:rotatex(180deg);
-    -o-transform:rotatex(180deg);
+    transform:rotatez
+    (180deg);
+    -webkit-transform:rotatez(180deg);
+    -moz-transform:rotatez(180deg);
+    -ms-transform:rotatez(180deg);
+    -o-transform:rotatez(180deg);
 }

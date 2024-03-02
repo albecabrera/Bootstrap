@@ -1,0 +1,23 @@
+/* Esto le cambia el color a todos los enlances con la etiqueta a */
+a:link{
+    color: red;    
+}
+/* el visited permite marcado de color verde el enlace anteriormente cliqueado que era originalmente rojo */
+a:visited{
+    color: green;
+
+}
+/* el elemento hover permite que cuando pasemos el ratón por encima de un enlace este tome el color de fondo correspondiente */
+a:hover{
+    background-color: darkred;
+    color: white;
+}
+/* marca el enlace una vez hemos hecho clic manteniéndolo presionado */
+a:active{
+    background-color: orangered;
+}
+
+/*Los desarrolladores tienen el siguiente truco para acordarse de eso: 
+
+LOVE HATE =>  LINK, VISITED, HOVER, ACTIVE
+ /*
