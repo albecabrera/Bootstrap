@@ -1,0 +1,65 @@
+/* -------------checked------------------ */
+
+/* Esto marca la checkbox y la hecha un poco para el lateral */
+
+input[type=checkbox]:checked {
+   margin-left: 15px;
+   box-shadow: 0 0 0 3px lime;
+}
+
+/* -------------------radio ---------------*/
+
+/* Esto marca  la etiqueta radio de color rojo */
+input[type=radio]:checked + label{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+input[type=text]:enabled {
+  background-color: yellow;
+}
+
+input[type=text]:disabled {
+  background-color: #dddddd;
+}
+input[type=text]:focus {
+    width: 190px;
+    height: 22px;
+  }
+
+
+  /* sirve para marcar de color verde si se está en el rango indicado */
+input[type=number]:in-range {
+  border: 2px solid green;
+  }
+  /* sirve para marcar de color verde si se está fuera del rango indicado */ 
+input[type=number]:out-of-range {
+  border: 2px solid red;
+  }
+
+   /* marca con el color señalado si la información fue correctamente ingresada */ 
+input[type=email]:valid{
+    background-color: rgb(0, 225, 225);
+}
+input[type=email]:invalid{
+    background-color: rgb(236, 123, 123);
+}
+
+/* optinal */
+
+input:requered{
+    background-color: rgb(255, 0, 221);
+}
+
+/* read-write / read-only */
+
+input:read-write{
+    background-color: rgb(0, 98, 255);
+}
+input:read-only{
+    background-color: rgb(0, 255, 64);
+}
+  
+

@@ -1,0 +1,27 @@
+/* pseudoelemento se pueden incluir desde el css */
+
+h1::before {
+    content: "👨‍👩‍👧‍👦";
+}
+
+h1::after {
+    content: "👨‍👩";
+}
+/* Selecciona la primera letra de un párrafo */
+p::first-letter {
+    color: red;
+    background-color: yellow;
+}
+
+p::first-line {
+    color: blue;
+}
+
+
+/* Cambia los colores de una lista */
+ol li::marker {
+    color: red;
+}
+ul li::marker {
+    color: green;
+}

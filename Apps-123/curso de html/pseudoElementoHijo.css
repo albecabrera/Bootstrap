@@ -1,0 +1,40 @@
+/* Cambia el color al primer hijo
+
+li:first-child {
+    color: blue;
+}
+
+/* Cambia el color al último hijo */
+li:last-child {
+    color: rgb(0, 255, 85);
+}
+
+/* Cambia el color al penúltimo hijo */
+li:nth-last-child(2) {
+    color: rgb(255, 0, 0);
+}
+
+/* Cambia el color al segundo hermano */
+li:nth-child(2n) {
+    color: rgb(174, 255, 0);
+} */
+
+p:first-child {
+    color: green;
+}
+
+a:last-child {
+    color: red;
+}
+
+p:nth-of-type(2n){
+    background-color: blueviolet;
+}
+
+a:nth-of-type(2n){
+    background-color: rgb(64, 118, 97);
+}
+
+p::before{
+    content: "PseudoElementoHijo: ";
+}

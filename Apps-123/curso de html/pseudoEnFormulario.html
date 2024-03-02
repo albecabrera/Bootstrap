@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pseudoEnFormulario.css">
+    <title>Formulario de contacto</title>
+</head>
+
+<body>
+
+    <h2>Formulario de contacto</h2>
+    <!-- Código PHP para poder enviar correos -->
+    <form action="myscript.php" method="post">
+        <fieldset>
+            <legend>Datos del usuario</legend>
+
+            <label for="name">Nombre</label><br>
+            <input type="text" id="name" name="name" placeholder="Ingresa aquí tu nombre"><br>
+
+            <label for="">Correo</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password" name="password" autofocus><br>
+
+            <label for="birthday">Fecha de nacimiento</label><br>
+            <input type="date" id="birthday" name="birthday"><br>
+
+            <label for="cv">Ingresa tu cv:</label><br>
+            <input type="file" id="cv" name="cv"><br>
+            <!-- textarea se utiliza para escribir un texto más largo -->
+            <textarea name="Description" id="Description" cols="50" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Color Favorito</legend>
+
+            <input type="radio" id="red" name="color">
+            <label for="red">Rojo</label><br>
+
+            <input type="radio" id="blue" name="color">
+            <label for="blue">Azul</label><br>
+
+            <input type="radio" id="green" name="color">
+            <label for="green">Verde</label><br>
+
+            <input type="color" name="color"><br>
+
+            <select name="color2" id="color2">
+                <option value="blue">Azul</option>
+                <option value="red">Rojo</option>
+                <option value="green">Verde</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" id="read" name="hobby1" value="read">
+            <label for="read">Leer</label>
+
+            <input type="checkbox" id="dance" name="hobby2" value="dance">
+            <label for="dance">Bailar</label>
+
+            <input type="checkbox" id="coding" name="hobby3" value="coding">
+            <label for="coding">Programar</label><br>
+
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+</body>
+
+</html>
