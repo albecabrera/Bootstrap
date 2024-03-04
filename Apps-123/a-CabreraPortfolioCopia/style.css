@@ -3,8 +3,7 @@ body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4; /* Fondo claro */
-  text-align: center;
-  padding: 0 150px 0 150px;
+  padding: 0 150px 0 350px;
 }
 /* Estilos generales */
 .navbar-container {
