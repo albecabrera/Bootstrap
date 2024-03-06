@@ -5,6 +5,12 @@ buttons.forEach((item) => {
 if(item.id=="clear"){
     display.innerText = "";     
 }else if(item.id=="backspace"){
-    if(display.innerText){
-        display.innerText = display.innerText.slice(0,-1);
+let string = display.innerText.toString();
+display.innerText=string.substr(0,string.lenght-1);
+//45
+
+} else if(display.innertext !=""&& item.id=="equal"){
+    display.innerText = eval(display.innerText);
+}
     }
+})
