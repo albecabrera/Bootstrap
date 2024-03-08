@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <!-- la etiqueta form permite crear formularios -->
+    <!-- el atributo action hace referencia a donde se va a enviar el formulario -->
+    <form action="resultados.html" method="GET">
+        <div>
+            <!-- la etiqueta label y la input deben tener el mismo nombre y siempr es buena práctica ponerlos en una etiqueta div-->
+            <label for="nombreusuario">Nombre de usuario</label>
+            <input name="nombreusuario" id="nombreusuario" />
+        </div>
+        <label for="comentarios">Comentarios</label>
+        <textarea name="comentarios" id="comentarios"></textarea>
+        <div>
+            <label for="password">Contraseña</label>
+            <input id="password">
+        </div>
+        <button>Enviar</button>
+    </form>
+
+</body>
+
+</html>
