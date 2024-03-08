@@ -14,15 +14,27 @@
         <div>
             <!-- la etiqueta label y la input deben tener el mismo nombre y siempr es buena práctica ponerlos en una etiqueta div-->
             <label for="nombreusuario">Nombre de usuario</label>
-            <input name="nombreusuario" id="nombreusuario" />
+            <input type="text" name="nombreusuario" id="nombreusuario" required />
         </div>
-        <label for="comentarios">Comentarios</label>
-        <textarea name="comentarios" id="comentarios"></textarea>
+        <br>
+        <div>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </div>
+        <br>
         <div>
             <label for="password">Contraseña</label>
-            <input id="password">
+            <!-- el atributo type permite que no se pueda ver la contraseña -->
+            <input type="password" name="password" id="password" required>
         </div>
-        <button>Enviar</button>
+        <br>
+        <div>
+            <label for="email">¿Cuál es tu email?</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
     </form>
 
 </body>
