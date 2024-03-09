@@ -416,7 +416,9 @@ img{
   .home__img{
     width: 457px;
     bottom: 15%;
-    border-radius: 50%;
+    width: 300px;
+  height: 300px;
+  border-radius: 50px;
 }
 
   .about__container, .skills__container{
