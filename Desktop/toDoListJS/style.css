@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --white: #fafafb;
   --purple: #9a67ea;
@@ -7,6 +13,47 @@
 }
 
 body {
-  background: linear-gradient (to bottom, var(--purple), var(--blue-light));
+  background: linear-gradient(to bottom, var(--purple), var(--blue-light));
   height: 100vh;
+}
+
+/* PERFIL */
+
+.perfil h1 {
+  color: var(--white);
+}
+
+.perfil span {
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+#fecha {
+  color: var(--white);
+  padding: 50px 0 5px 0;
+}
+
+/* AGREGAR TAREA */
+
+.agregar-tarea {
+  background-color: var(--white);
+  border-radius: 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 70px;
+}
+
+.agregar-tarea input {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--white);
+}
+
+.agregar-tarea i {
+  font-size: 50px;
+  color: var(--purple);
 }
