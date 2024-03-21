@@ -1,55 +1,106 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+* {
+  font-family: Monaco;
 }
 
-header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
+.menu-container {
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e2;
 }
 
-.logo img {
-  max-width: 100%;
+.section {
+  padding: 10px;
+}
+.label {
+  font-weight: bold;
+}
+.description {
+  font-style: italic;
+  border-top: 2px solid #495e57;
 }
 
-main {
+.item-name {
+  margin: 25px;
+  font-size: 12px;
+}
+
+b {
+  float: right;
+  margin-top: -15px;
+  color: darkcyan;
+}
+
+div > h3 {
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  color: #495e57;
+}
+
+.label + .low {
+  color: brown;
+}
+
+div ~ div {
+  color: rgb(90, 90, 90);
+}
+
+.logo {
+  width: 470px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-items,
+.nav-list {
+  padding: 5px;
+  display: flex;
+  margin: 10px;
+  color: #495e57;
+  text-align: center;
+  cursor: pointer;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: auto;
+  justify-content: space-around;
+}
+.header {
+  background-color: #7d837d;
+}
+
+.title {
+  text-align: center;
+  color: #495e57;
+  font-size: 40px;
+  margin: 20px;
+  border-bottom: 2px solid #495e57;
+}
+.container {
+  background-color: #e0e0e2;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  justify-content: center;
+  margin: 10px;
 }
 
-.banner {
+.text-container {
+  padding: 10px;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.banner-column img {
-  max-width: 100%;
-}
-
-.content {
-  max-width: 800px;
-  text-align: center;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 
-.footer-logo img {
-  max-width: 100%;
-  height: auto;
-}
-
-.footer-info {
-  text-align: right;
+.footer {
+  background-color: #7d837d;
+  text-align: center;
+  color: #e0e0e2;
+  margin: auto;
 }
