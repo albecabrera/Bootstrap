@@ -5,24 +5,22 @@ body {
   padding: 0;
 }
 
-/* Header-Stile */
+/* HEADER */
 header {
-  background-color: #f0f0f0;
+  background-color: #8ebba5;
+  color: #fff;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logoLEMON {
-  width: 100px;
+/* LOGOLEMON */
+nav ul li img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
   
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 nav ul li {
@@ -35,27 +33,32 @@ nav ul li a {
   color: #333;
 }
 
-/* Hauptinhalt-Stile */
+/* BANNER */
 .banner img {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
+
+
 
 .content {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
 }
-
+/* COLUMNS */
 .column {
-  flex: 1;
-  padding: 0 10px;
+  width: 30%;
+  padding: 0 20px;
 }
 
 .column img {
   width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-/* Footer-Stile */
+/* FOOTER */
 footer {
   background-color: #333;
   color: #fff;
@@ -66,5 +69,7 @@ footer {
 }
 
 .footer-logo img {
-  width: 50px;
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
 }
