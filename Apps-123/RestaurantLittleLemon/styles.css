@@ -1,117 +1,70 @@
-* {
-  font-family: Monaco;
+/* STILE */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.menu-container {
-  max-width: 800px;
+/* Header-Stile */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
   display: flex;
-  justify-content: center;
-  background-color: #e0e0e2;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.section {
-  padding: 10px;
-}
-.label {
-  font-weight: bold;
-}
-.description {
-  font-style: italic;
-  border-top: 2px solid #495e57;
+.logoLEMON {
+  width: 100px;
+  
 }
 
-.item-name {
-  margin: 25px;
-  font-size: 12px;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-b {
-  float: right;
-  margin-top: -15px;
-  color: darkcyan;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-div > h3 {
-  font-size: 20px;
-  margin: 20px;
-  text-align: center;
-  color: #495e57;
-}
-
-.label + .low {
-  color: brown;
-}
-
-div ~ div {
-  color: rgb(90, 90, 90);
-}
-
-.logo {
-  width: 470px;
-  height: 50px;
-  margin: 10px;
-  padding: 10px;
-}
-
-.nav-items,
-.nav-list {
-  padding: 5px;
-  display: flex;
-  margin: 10px;
-  color: #495e57;
-  text-align: center;
-  cursor: pointer;
-  list-style: none;
-  font-size: 20px;
-  font-weight: bold;
+nav ul li a {
   text-decoration: none;
-  margin: auto;
-  justify-content: space-around;
-}
-.header {
-  background-color: #7d837d;
+  color: #333;
 }
 
-.title {
-  text-align: center;
-  color: #495e57;
-  font-size: 40px;
-  margin: 20px;
-  border-bottom: 2px solid #495e57;
+/* Hauptinhalt-Stile */
+.banner img {
+  width: 100%;
 }
-.container {
-  background-color: #e0e0e2;
-  padding: 10px;
+
+.content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
-.text-container {
-  padding: 10px;
+.column {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.column img {
+  width: 100%;
+}
+
+/* Footer-Stile */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  margin: 10px;
 }
 
-.logoYellow {
+.footer-logo img {
   width: 50px;
-  height: 50px;
-  margin: 10px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-}
-.footer {
-  background-color: #7d837d;
-  text-align: center;
-  color: #e0e0e2;
-  margin: auto;
 }
