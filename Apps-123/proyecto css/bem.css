@@ -1,0 +1,31 @@
+/* ESTILOS PARA COMENZAR CUALQUIERA APLICACIÓN */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.main-nav {
+  background-color: #333;
+}
+
+/* ESTOS TRES ESTILOS SIEMPRE DEBERIAN DE ESTAR PRESENTES */
+.main-menu{
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+.main-menu__item{
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 1rem;
+}
